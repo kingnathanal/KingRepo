@@ -16,7 +16,7 @@ public class Program {
 		
 		System.out.println(animal2.toString());
 		
-		// This is perfectly fine
+		// This is perfectly fine now
 		System.out.println("End of Farm Program");
 	}
 
