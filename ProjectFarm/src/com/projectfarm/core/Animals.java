@@ -10,6 +10,7 @@ public class Animals {
 		setColor("Black");
 	}
 	
+	// Pass animal color through
 	public Animals(String name, String color) {
 		setName(name);
 		setColor(color);
