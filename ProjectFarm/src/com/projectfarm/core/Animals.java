@@ -10,6 +10,7 @@ public class Animals {
 		setColor("Black");
 	}
 	
+	// Second Construct
 	public Animals(String name, String color) {
 		setName(name);
 		setColor(color);
