@@ -6,8 +6,8 @@ public class Program {
 		
 		System.out.println("Welcome to the Animal Farm");
 		
-		// Create first animal here
-		Animals animal = new Animals("Ryan");
+		// Create first animal here, we want a white animal
+		Animals animal = new Animals("Ryan","White");
 		
 		System.out.println(animal.toString());
 		
