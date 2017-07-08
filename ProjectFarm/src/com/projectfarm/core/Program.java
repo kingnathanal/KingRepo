@@ -11,7 +11,7 @@ public class Program {
 		
 		System.out.println(animal.toString());
 		
-		// Create second animal here, maybe change this animal name
+		// Create second animal here, maybe change this animal name 
 		Animals animal2 = new Animals("Will", "Red");
 		
 		System.out.println(animal2.toString());
