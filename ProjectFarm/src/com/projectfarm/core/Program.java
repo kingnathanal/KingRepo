@@ -6,7 +6,7 @@ public class Program {
 		
 		System.out.println("Welcome to the Animal Farm");
 		
-		Animals animal = new Animals("Steve");
+		Animals animal = new Animals("Ryan");
 		
 		System.out.println(animal.toString());
 		
