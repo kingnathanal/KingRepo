@@ -12,7 +12,7 @@ public class Program {
 		System.out.println(animal.toString());
 		
 		// Create second animal here, maybe change this animal name 
-		Animals animal2 = new Animals("Will", "Brown");
+		Animals animal2 = new Animals("Will", "Brown"); 
 		
 		System.out.println(animal2.toString());
 		
