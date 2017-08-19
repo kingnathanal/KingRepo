@@ -43,7 +43,7 @@
 	
 		
 	<div class="row">
-		<div class="col-1 side_menu">
+		<div class="col-1 col-md-1 side_menu">
     		<ul>
     			<li>Home</li>
     			<li>Contact</li>
