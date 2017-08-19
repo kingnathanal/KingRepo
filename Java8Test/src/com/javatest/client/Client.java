@@ -18,7 +18,8 @@ public class Client {
 		
 		list.forEach(x -> {
 			
-			int y = x * 2; 
+			int y = x * 100; 
+			int k = y / x;
 			System.out.println(y);
 			
 		});
