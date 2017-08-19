@@ -1,1 +1,2 @@
-/Client.class
+# ignore generated html files,
+*.class
