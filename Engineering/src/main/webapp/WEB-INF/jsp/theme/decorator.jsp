@@ -10,7 +10,7 @@
     
     <style type='text/css'>
      	body {}
-     	header {background-color:#AEAEAE;height:120px;color:white;text-align:center;padding-top:5px;}
+     	header {background-color:#AEAEAE;min-height:120px;color:white;text-align:center;padding-top:5px;}
      	footer {}
      	.side_menu {background-color:#AEAEAE;color:white;min-height:700px; @include make-col(6);}
      	.main_body {padding:8px;}
