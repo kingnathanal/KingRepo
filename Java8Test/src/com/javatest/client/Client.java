@@ -28,7 +28,7 @@ public class Client {
 			list.stream().filter(x -> x % 10 == 0).forEach(System.out::println);
 		}
 	
-	   // Sweet Sweet Sweet
+	   // Sweet Sweet Sweet sweet 2
 		
 	}
 
