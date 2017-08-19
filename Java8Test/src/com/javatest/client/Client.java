@@ -25,11 +25,8 @@ public class Client {
 		
 		System.out.println("------------------------------------------------------------------ ");
 		
-		list.stream().filter(x -> x.equals("Ryan")).forEach(System.out::println);
+			list.stream().filter(x -> x % 10 == 0).forEach(System.out::println);
+		}	
 		
-		}
-	
-	
-
 	}
 
