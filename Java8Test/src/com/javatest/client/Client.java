@@ -7,17 +7,19 @@ public class Client {
 
 	public static void main(String[] args) {
 		
-		List<String> list = new ArrayList<>();
+		List<Integer> list = new ArrayList<>();
 		
-		list.add("John");
-		list.add("Will");
-		list.add("Steve");
-		list.add("Ryan");
-		list.add("Karen");
+		list.add(10);
+		list.add(100);
+		list.add(50);
+		list.add(60);
+		list.add(40);
+		list.add(6);
 		
 		list.forEach(x -> {
 			
-			if(x.equals("Will")) { System.out.println(x); }
+			int y = x * 2; 
+			System.out.println(y);
 			
 		});
 		
