@@ -20,7 +20,7 @@ public class Client {
 			
 			int y = x * 100; 
 			int k = y / x;
-			System.out.println(y);
+			System.out.println(x + " * 100 = " + y + " / " + x + " = " + k);
 			
 		});
 		
