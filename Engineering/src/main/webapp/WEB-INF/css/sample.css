@@ -1,3 +1,15 @@
-body {
-	background-color:white;
-}
+
+/************************************************************
+*
+*
+*************************************************************/
+
+/* Theme Styles */
+.theme header {background-color:#AEAEAE;min-height:80px;color:white;text-align:center;padding-top:5px;}
+.theme footer {}
+.theme .side_menu {background-color:#AEAEAE;color:white;min-height:700px;}
+.theme .main_body {padding:8px;}
+.theme .nav {margin-left:10%;}
+.theme .nav-item {}
+.theme .navrow {background-color:#2D3E50;min-height:60px;color:white;}
+
