@@ -28,9 +28,8 @@ public class Client {
 		
 		list.stream().filter(x -> x % 10 == 0).forEach(System.out::println);
 			
-			
-			
 		System.out.println("Starting a new GIT test");	
+		System.out.println("But I like it with less System.outs");
 	}
 	
 	   // Sweet Sweet Sweet sweet 2
