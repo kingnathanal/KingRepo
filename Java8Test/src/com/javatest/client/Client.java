@@ -26,10 +26,16 @@ public class Client {
 		
 		System.out.println("------------------------------------------------------------------ ");
 		
-			list.stream().filter(x -> x % 10 == 0).forEach(System.out::println);
-		}
+		list.stream().filter(x -> x % 10 == 0).forEach(System.out::println);
+			
+			
+			
+		System.out.println("Starting a new GIT test");	
+	}
 	
 	   // Sweet Sweet Sweet sweet 2
+	
+		
 		
 	}
 
