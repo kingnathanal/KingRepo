@@ -18,6 +18,8 @@ public class Program {
 		
 		// This is perfectly fine now
 		System.out.println("End of Farm Program");
+		
+		// End of program
 	}
 
 }
