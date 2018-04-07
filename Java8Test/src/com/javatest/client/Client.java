@@ -7,27 +7,34 @@ public class Client {
 
 	public static void main(String[] args) {
 		
-		List<String> list = new ArrayList<>();
+		List<Integer> list = new ArrayList<>();
 		
-		list.add("John");
-		list.add("Will");
-		list.add("Steve");
-		list.add("Ryan");
-		list.add("Karen");
+		list.add(12);
+		list.add(100);
+		list.add(50);
+		list.add(60);
+		list.add(40);
+		list.add(6);
 		
 		list.forEach(x -> {
 			
-			if(x.equals("Will")) { System.out.println(x); }
+			int y = x * 100; 
+			int k = y / x;
+			System.out.println(x + " * 100 = " + y + " / " + x + " = " + k);
 			
 		});
 		
 		System.out.println("------------------------------------------------------------------ ");
 		
-		list.stream().filter(x -> x.equals("Ryan")).forEach(System.out::println);
+		list.stream().filter(x -> x % 10 == 0).forEach(System.out::println);
+			
+		System.out.println("Starting a new GIT test");	
+		System.out.println("But I like it with less System.outs");
+	}
+	
+	   // Sweet Sweet Sweet sweet 2
+	
 		
-		}
-	
-	
-
+		
 	}
 
