@@ -1,40 +1,42 @@
 package com.projectfarm.core;
 
 public class Animals {
-	
-	private String name; 
+
+	private String name;
 	private String color;
-	
+
 	public Animals(String name) {
-		setName(name); 
+		setName(name);
 		setColor("Black");
 	}
-	
-	// Second Construct
+
+	// Second Construct Pass animal color through
 	public Animals(String name, String color) {
 		setName(name);
 		setColor(color);
 	}
-	
+
 	public String getName() {
-		return name; 
+		return name;
 	}
-	
+
 	public void setName(String name) {
 		this.name = name;
 	}
-	
+
 	public String getColor() {
-		return color; 
+		return color;
 	}
-	
+
 	public void setColor(String color) {
-		this.color = color; 
+		this.color = color;
 	}
-	
+
 	@Override
 	public String toString() {
-		return "This animals name is: " + name + " and it has a color of: " + color; 
+		return "This animals name is: " + name + " and it has a color of: " + color;
 	}
+
+	//Testing these changes
 
 }
